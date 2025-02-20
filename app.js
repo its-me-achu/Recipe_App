@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const connectDB = require("./config/dbConfig");
+const connectDB = require("./config/dbconfig");
 const recipesRoutes = require("./routes/recipesRoutes");
 
 const app = express();
